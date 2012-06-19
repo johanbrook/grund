@@ -1,5 +1,5 @@
 module Grund
-  VERSION = "0.1.pre"
+  VERSION = "1.0"
 end
 
 require 'grund/generator'
