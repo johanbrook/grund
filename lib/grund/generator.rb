@@ -14,6 +14,8 @@ module Grund
     def run
       if @command == "install"  
         get_zip @url
+      elsif @command == "-v" or @command == "--version"
+        puts "Grund #{Grund::VERSION}"
       else
         help
       end
